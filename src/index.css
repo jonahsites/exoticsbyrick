@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Anton", sans-serif;
+  --font-syne: "Syne", sans-serif;
+  --font-sans: "Inter", sans-serif;
+  --font-grotesk: "Space Grotesk", sans-serif;
+  --font-outfit: "Outfit", sans-serif;
+  --font-fashion: "Playfair Display", serif;
+  --font-retro: "Anton", sans-serif; /* Using Anton for retro feel or similar */
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
